@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container border border-danger align-items-start">
+            <div class="row">
+                <div class="column col-auto d-flex flex-column border border-dark justify-content-end align-items-end bg-warning">
+                    <div class="block col-auto border border-secondary">
+                        <i class="fas fa-2x fa-dog"></i>
+                    </div>
+                </div>
+
+                <div class="column col-auto border border-dark d-flex flex-column justify-content-around align-items-end bg-danger">
+                    <div class="block col-auto border border-secondary">
+                        <i class="fas fa-2x fa-dog"></i>
+                    </div>
+
+                    <div class="block col-auto border border-secondary">
+                        <i class="fas fa-2x fa-kiwi-bird"></i>
+                    </div>
+                </div>
+
+                <div class="column col-auto border border-dark d-flex flex-column align-items-start justify-content-around bg-success">
+                    <div class="block col-auto border border-secondary">
+                        <i class="fas fa-2x fa-cat"></i>
+                    </div>
+
+                    <div class="block col-auto border border-secondary">
+                    <i class=" fas fa-2x fa-kiwi-bird"></i>
+                    </div>
+                </div>
+
+                <div class="column col-auto border border-dark d-flex flex-column align-items-start justify-content-end bg-info">
+                    <div class="block col-auto border border-secondary">
+                        <i class="fas fa-2x fa-dog"></i>
+                    </div>
+
+                    <div class="block col-auto border border-secondary">
+                        <i class="fas fa-2x fa-cat"></i>
+                    </div>
+                </div>
+            </div>
+        <div class="row">
+            <div class="column col-auto d-flex flex-column border border-dark align-items-end justify-content-center bg-success">
+                <div class="block col-auto border border-secondary">
+                    <i class="fas fa-2x fa-dog"></i>
+                </div>
+
+                <div class="block col-auto border border-secondary">
+                    <i class="fas fa-2x fa-kiwi-bird"></i>
+                </div>
+
+                <div class="block col-auto border border-secondary">
+                    <i class="fas fa-2x fa-cat"></i>
+                </div>
+            </div>
+
+            <div class="column1 col-auto d-flex flex-column border border-dark align-items-center justify-content-center bg-primary">
+                <div class="block col-auto border border-secondary">
+                    <i class="fas fa-2x fa-dog"></i>
+                </div>
+
+                <div class="block col-auto border border-secondary">
+                    <i class="fas fa-2x fa-cat"></i>
+                </div>
+            </div>
+
+            <div class="column col-auto d-flex flex-column border border-dark align-items-start bg-light">
+                <div class="block col-auto border border-secondary">
+                    <i class="fas fa-2x fa-dog"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column col-auto d-flex flex-column border border-dark align-items-end bg-warning">
+                <div class="block col-auto border border-secondary">
+                    <i class="fas fa-2x fa-dog"></i>
+                </div>
+            </div>
+
+            <div class="column col-auto d-flex flex-column border border-dark align-items-stretch bg-info">
+                <div class="block col-auto border border-secondary">
+                    <i class="fas fa-2x fa-dog"></i>
+                </div>
+
+                <div class="block col-auto border border-secondary">
+                    <i class="fas fa-2x fa-cat"></i>
+                </div>
+            </div>
+
+            <div class="column col-auto d-flex flex-column border border-dark align-items-stretch justify-content-center bg-transparent">
+                <div class="block col-auto border border-secondary">
+                    <i class="fas fa-2x fa-dog"></i>
+                </div>
+
+                <div class="block col-auto border border-secondary">
+                    <i class="fas fa-2x fa-kiwi-bird"></i>
+                </div>
+
+                <div class="block col-auto border border-secondary">
+                    <i class="fas fa-2x fa-cat"></i>
+                </div>
+            </div>
+
+            <div class="column col-auto d-flex flex-column border border-dark align-items-stretch justify-content-around bg-info">
+                <div class="block col-auto border border-secondary">
+                    <i class="fas fa-2x fa-cat"></i>
+                </div>
+
+                <div class="block col-auto border border-secondary">
+                    <i class="fas fa-2x fa-kiwi-bird"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .container {
+            margin: 0.5em;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .column {
+            display: flex;
+            flex-direction: column;
+            padding: 0.5em;
+            margin: 0.5em;
+            height: 216px;
+            flex-basis: 216px;
+            flex-grow: 0;
+        }
+
+        .column1 {
+            display: flex;
+            flex-direction: column;
+            padding: 0.5em;
+            margin: 0.5em;
+            height: 216px;
+            flex-basis: 448px;
+            flex-grow: 0;
+            
+        }
+
+        .block {
+            margin: 0.25em;
+            padding: 0.5em;
+        }
+    </style>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
